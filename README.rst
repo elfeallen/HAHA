@@ -42,8 +42,8 @@ Usage:
 
     app = Flask(__name__)
 
-    line_bot_api = LineBotApi('YOUR_CHANNEL_ACCESS_TOKEN')
-    handler = WebhookHandler('YOUR_CHANNEL_SECRET')
+    line_bot_api = LineBotApi('UBhcR4oLznrsqYrj2JksbQDNqZYsLLlRlYrynbcMUzkLlxuz8Z74VW1NcAumKfe1u/nCpA4pbyGu5xtjf+W78FwKGQahtOQTJbq3HtKvcGxd1dh/wGT8J/nYFJclxOw816cumtw8Lvt8gE2vSe1bawdB04t89/1O/w1cDnyilFU=')
+    handler = WebhookHandler('1e838b9e64337e08f7dc3e5578f23236')
 
 
     @app.route("/callback", methods=['POST'])
